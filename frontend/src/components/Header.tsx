@@ -13,7 +13,7 @@ export default function Header() {
       alignItems: 'center',
       justifyContent: 'space-between',
       padding: '0 2rem',
-      background: 'rgba(10, 10, 12, 0.6)',
+      background: 'rgba(var(--bg-primary-rgb), 0.6)',
       backdropFilter: 'blur(10px)',
       position: 'sticky',
       top: 0,

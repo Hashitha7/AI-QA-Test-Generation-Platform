@@ -1,8 +1,11 @@
 :root {
   /* Core Colors */
   --bg-primary: #0a0a0c;
+  --bg-primary-rgb: 10, 10, 12;
   --bg-secondary: #121216;
+  --bg-secondary-rgb: 18, 18, 22;
   --bg-tertiary: #1a1a21;
+  --bg-tertiary-rgb: 26, 26, 33;
   
   --text-primary: #ffffff;
   --text-secondary: #a1a1aa;
@@ -26,8 +29,11 @@
 
 [data-theme='light'] {
   --bg-primary: #f8fafc;
+  --bg-primary-rgb: 248, 250, 252;
   --bg-secondary: #f1f5f9;
+  --bg-secondary-rgb: 241, 245, 249;
   --bg-tertiary: #e2e8f0;
+  --bg-tertiary-rgb: 226, 232, 240;
   
   --text-primary: #0f172a;
   --text-secondary: #334155;
@@ -80,7 +86,7 @@ a:hover {
 
 /* Glassmorphism Utilities */
 .glass-panel {
-  background: var(--bg-secondary);
+  background: rgba(var(--bg-secondary-rgb), 0.6);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--border-color);
@@ -89,7 +95,7 @@ a:hover {
 }
 
 .glass-card {
-  background: var(--bg-tertiary);
+  background: rgba(var(--bg-tertiary-rgb), 0.4);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid var(--border-color);

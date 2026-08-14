@@ -41,7 +41,7 @@ export default function Sidebar() {
       padding: '1.5rem',
       display: 'flex',
       flexDirection: 'column',
-      background: 'rgba(10, 10, 12, 0.8)',
+      background: 'rgba(var(--bg-primary-rgb), 0.8)',
       backdropFilter: 'blur(10px)',
       position: 'fixed',
       left: 0,
